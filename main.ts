@@ -15,7 +15,7 @@ basic.forever(function () {
     itme.showDP(1, true)
     basic.pause(1000)
     time = time + 1
-    if (time == 59) {
+    if (time == 60) {
         time = 0
         min = min + 1
     }
